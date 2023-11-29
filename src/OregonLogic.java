@@ -3,10 +3,19 @@ public class OregonLogic {
     private int water;
     private int food;
 
+    private int career;
+
     public OregonLogic() {
         water = 0;
         food = 0;
+    }
 
+    public int getCareer() {
+        return career;
+    }
+
+    public void setCareer(int career) {
+        this.career = career;
     }
 
     //returns a random integer between a and b, b is not inclusive
