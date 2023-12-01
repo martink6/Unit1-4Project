@@ -3,9 +3,18 @@ public class OregonLogic {
     private int water;
     private int food;
 
+    private double money;
+
+    private int intelligence;
+
+    private int strength;
+
     private int career;
 
-    public OregonLogic() {
+    public OregonLogic(double money, int intelligence, int strength) {
+        this.money = money;
+        this.intelligence = intelligence;
+        this.strength = strength;
         water = 0;
         food = 0;
     }
