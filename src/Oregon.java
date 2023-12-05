@@ -1,5 +1,7 @@
 public class Oregon {
     public static void start() {
-        Menus.menu();
+        Utils.clearScreen();
+        Game game = new Game();
+        game.start();
     }
 }
